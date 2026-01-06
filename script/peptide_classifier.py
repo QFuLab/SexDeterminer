@@ -126,9 +126,9 @@ def classify_peptides(df: pd.DataFrame, AMELX_seqlist: list, AMELY_seqlist: list
             continue
         
         if classification == 'AMELX-unique' and is_in_AMELXY_seqlist(peptide, AMELY_seqlist):
-            classification = 'AMELX-unique-match-AMELY'
+            classification = 'Both'
         if classification == 'AMELY-unique' and is_in_AMELXY_seqlist(peptide, AMELX_seqlist):
-            classification = 'AMELY-unique-match-AMELX'
+            classification = 'Both'
 
         # Take the first row for each peptide (already deduplicated)
         row = group.iloc[0].copy()
