@@ -30,4 +30,4 @@ Code released under GNU General Public License v3.0.
 
 ## Question & Bug
 
-Please report questions, bugs, or any suggestions on **issues** page.
+Please report questions, bugs, or any suggestions on [issues](https://github.com/QFuLab/SexDeterminer/issues) page.
