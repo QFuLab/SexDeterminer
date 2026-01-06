@@ -8,13 +8,13 @@ SexDeterminer is a lightweight, open-source Nextflow pipeline designed for accur
 
 * Ratio-Based Sex Estimation: Uses R<sub>AMELY</sub> (n<sub>AMELY</sub>/(n<sub>AMELX</sub>+n<sub>AMELY</sub>)) ratio for classification instead of binary presence/absence detection of specific AMELY markers (e.g. 59M)
 
-* Robust to False Positives: Statistical framework minimizes impact of false-positive AMELY signals
+* Robust to False Positives: Statistical framework minimizes impact of false-positive AMELY signals 
 
 * Multi-Database Search Software Compatibility: Works with output from PEAKS, MaxQuant, pFind, and DIA-NN
 
-* Pre-built Reference Databases: Includes amelogenin databases designed for different analysis contexts
+* Generalizable Pre-built Reference Databases: Includes amelogenin databases designed for different analysis contexts
 
-* Automated Workflow: End-to-end processing from raw search results to final sex assessment report
+* Automated Workflow: End-to-end processing from raw LC-MS/MS data to final sex assessment report
 
 ## Usage 
 
