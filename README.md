@@ -1,8 +1,12 @@
-# SexDeterminer: An Automated Pipeline for Paleo-Proteomic Sex Estimation 
+# protSexInferer: An Automated Pipeline for Paleo-Proteomic Sex Estimation 
 
 ## Overview
 
-SexDeterminer is a lightweight, open-source Nextflow pipeline designed for accurate, robust, and standardized sex determination from paleo-proteomic data. The pipeline uses a ratio-based method to calculate the proportion of male-specific amelogenin (AMELY) peptides relative to total amelogenin peptides detected, enabling reliable sex estimation even in degraded ancient samples where traditional morphological or DNA-based methods fail.
+protSexInferer is a lightweight, open-source Nextflow pipeline designed for accurate, robust, and standardized sex determination from paleo-proteomic data. The pipeline uses a ratio-based method to calculate the proportion of male-specific amelogenin (AMELY) peptides relative to total amelogenin peptides detected, enabling reliable sex estimation even in degraded ancient samples where traditional morphological or DNA-based methods fail.
+
+## Citation
+
+Fan Bai, Zhongyou Wu, Qiaomei Fu, protSexInferer: an effective and robust pipeline for paleo-proteomic sex determination (Under Review)
 
 ## Key Features
 
@@ -30,4 +34,4 @@ Code released under GNU General Public License v3.0.
 
 ## Question & Bug
 
-Please report questions, bugs, or any suggestions on [issues](https://github.com/QFuLab/SexDeterminer/issues) page.
+Please report questions, bugs, or any suggestions on [issues](https://github.com/QFuLab/protSexInferer/issues) page.
