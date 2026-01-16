@@ -146,13 +146,13 @@ def classify_peptides(df: pd.DataFrame, AMELX_seqlist: list, AMELY_seqlist: list
         if intensity_cols:
             intensity_sum = 0
             for intensity_col in intensity_cols:
-                unique_values = group[intensity_col].replace({0: 1, np.nan: 1}).dropna().unique()
+                unique_values = group[intensity_col].replace({np.nan: 0}).dropna().unique()
                 intensity_sum += unique_values.sum()
             row['Intensity'] = intensity_sum
         if area_cols:
             area_sum = 0
             for area_col in area_cols:
-                unique_values = group[area_col].replace({0: 1, np.nan: 1}).dropna().unique()
+                unique_values = group[area_col].replace({np.nan: 0}).dropna().unique()
                 area_sum += unique_values.sum()
             row['Area'] = area_sum
         # Add to classified results
